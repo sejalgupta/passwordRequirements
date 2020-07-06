@@ -3,16 +3,16 @@ import string
 
 def StringChallenge(str):
   if (Length(str) == "false"):
-    return "false"
+    return false
   if (Numbers(str) == "false"):
-    return "false"
+    return false
   if (Punctuation(str) == "false"):
-    return "false"
+    return false
   if (noPass(str) == "false"):
-    return "false"
+    return false
   if (Capital(str) == "false"):
-    return "false"
-  return "true"
+    return false
+  return true
   
 #checks condition 5
 def Length(str):
